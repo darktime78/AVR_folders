@@ -3,7 +3,7 @@ AVR example directories for build and firmware from linux
 
 # Installing packages
 #sudo pacman -S avr-gcc avr-libc avr-binutils avr-gdb avrdude
-# Debugging firmawares  
+# Debugging firmware  
 - Now launch in QEMU, halting the CPU when it first starts, and listening on TCP port 1234 for gdb remote control:  
 __#qemu-system-avr -S -s -nographic -machine mega2560 -bios blinky.elf__  
   > - -S - freeze CPU at startup (use 'c' to start execution)  
