@@ -56,7 +56,14 @@ __#qemu-system-avr -M mega2560 -bios blinky.elf -nographic -serial tcp::5678,ser
  __#telnet localhost 5678__  
 - Print out executed instructions (that have not been translated by the JIT compiler yet):  
 __#qemu-system-avr -machine mega2560 -bios blinky.elf -d in_asm__
-
-
+# Pinouts
+![atmega328](https://github.com/darktime78/AVR_folders/blob/main/images/atmega-88-168-328.png)
+![attiny13](https://github.com/darktime78/AVR_folders/blob/main/images/attiny13.png)
+![attiny2313](https://github.com/darktime78/AVR_folders/blob/main/images/attiny2313-4313.png)
+![attiny84](https://github.com/darktime78/AVR_folders/blob/main/images/attiny84.png)
+![attiny85](https://github.com/darktime78/AVR_folders/blob/main/images/attiny85.png)
+![arduino_nano](https://github.com/darktime78/AVR_folders/blob/main/images/arduino-nano.jpg)
+![arduino_pro_mini](https://github.com/darktime78/AVR_folders/blob/main/images/arduino-pro-mini.jpg)
+![arduino_pro](https://github.com/darktime78/AVR_folders/blob/main/images/arduino-pro.jpg)
 
 
